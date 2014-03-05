@@ -1,40 +1,41 @@
 {
-    "name": "stratum-pool",
-    "version": "0.1.0",
-    "author": "Matthew Little",
-    "description": "High performance Stratum poolserver in Node.js",
-    "contributors": [
-        "vekexasia",
-        "TheSeven"
-    ],
-    "bin": {
-        "block-notify": "./scripts/blockNotify.js"
-    },
-    "main": "lib/index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/zone117x/node-stratum.git"
-    },
-    "keywords": [
-        "stratum",
-        "pool",
-        "server",
-        "poolserver",
-        "bitcoin",
-        "litecoin",
-        "scrypt"
-    ],
-    "dependencies": {
-        "scrypt256-hash": "zone117x/node-scrypt256-hash",
-        "scrypt-jane-hash": "zone117x/node-scrypt-jane-hash",
-        "quark-hash": "zone117x/node-quark-hash",
-        "x11-hash": "zone117x/node-x11-hash",
-        "bignum": "*",
-        "base58-native": "*",
-        "async": "*"
-    },
-    "license": "GPL-2.0",
-    "engines": {
-        "node": ">=0.10"
-    }
+  "name": "stratum-pool",
+  "version": "0.1.0",
+  "author": "Matthew Little",
+  "description": "High performance Stratum poolserver in Node.js",
+  "contributors": [
+    "vekexasia",
+    "TheSeven"
+  ],
+  "bin": {
+    "block-notify": "./scripts/blockNotify.js"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zone117x/node-stratum.git"
+  },
+  "keywords": [
+    "stratum",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
+  "dependencies": {
+    "scrypt256-hash": "zone117x/node-scrypt256-hash",
+    "scrypt-jane-hash": "zone117x/node-scrypt-jane-hash",
+    "quark-hash": "zone117x/node-quark-hash",
+    "x11-hash": "zone117x/node-x11-hash",
+    "bignum": "*",
+    "base58-native": "*",
+    "async": "*",
+    "socket.io": "^0.9.16"
+  },
+  "license": "GPL-2.0",
+  "engines": {
+    "node": ">=0.10"
+  }
 }
